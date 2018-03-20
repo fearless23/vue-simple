@@ -12,3 +12,9 @@ download the project and run npm install from directory.
 Build using Node 9.8
 Make sure you have vue-cli installed. If not go to official vue site.
 
+# Dist Folder not included
+Run vue build to files for production use
+
+# Firebase Init and Config Files excluded
+These files setup simple firebase config and database used for data from firestore. You can setup this from
+firebase console and then go to firebase add to webapp.
