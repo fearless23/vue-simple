@@ -1,0 +1,148 @@
+/*_______#RESET-STYLES_______*/
+
+html, body, ul, li, button {
+  margin: 0;
+  border: 0;
+  outline: 0;
+  padding: 0;
+}
+
+address, caption, cite, code, dfn, em,
+strong, th, var, h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-style: normal; 
+}
+
+h1, h2, h3, h4, h5, h6 {  font-size: 1.0em;}
+
+ul, li {  list-style: none;}
+
+div,nav,main { outline: 0;}
+fieldset, img, abbr {  border: 0; }
+a, ins {  text-decoration: none;}
+
+
+/*_______#GLOBAL_______*/
+
+html, body, div {  box-sizing: border-box; }
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.42;
+  color: #4D5256;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/*_______#TYPOGRAPHY_______*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.56em 0 0.44em 0;
+  font-weight: 300;
+}
+
+h1 {  font-size: 1.42em;}
+h2 {  font-size: 1.26em;}
+h3 {
+  font-size: 1.12em;
+  font-weight: 800; 
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1.12em;
+}
+
+strong { font-weight: 700; }
+em { font-style: italic; }
+small {  font-size: 0.89rem; }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #00a8e8;
+}
+
+
+/*_______#BUTTONS_______*/
+
+button,.btn {
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  transition: all 60ms ease-in-out;
+  border-radius: 0.35em;
+  padding: 0.56em 1.12em;
+  margin: 0 .5em;
+  line-height: 1;
+  background: #2ca58d;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 0.89em;
+  text-decoration: none;
+  white-space: nowrap; 
+}
+
+.btn:hover, button:hover {
+  opacity: 0.85;
+  transition: all 60ms ease-in-out; 
+}
+
+.btn:active, button:active {
+  opacity: 0.75;
+  transform: scale(0.97);
+  transition: all 60ms ease-in-out; 
+}
+
+.btn:focus, button:focus { outline: none; }
+
+.btn:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed; 
+}
+
+.btn-clear, .btn-outline, .btn-white {
+  background: white;
+  color: #4d5256;
+}
+
+.btn-white {
+  border: 1px solid #dadada;
+}
+
+.btn-white:hover {  border: 1px solid #00a8e8; }
+
+.btn-outline {
+  border: 1px solid #00a8e8;
+}
+
+.btn-outline:hover {
+  background: #00a8e8;
+  color: #fff;
+}
+/* 
+body > div {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 70px 1fr 100px;
+  grid-template-areas: 'header' 'ninjas' 'footer';
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: ninjas;
+}
+
+footer {
+  grid-area: footer;
+  height: 100px;
+} */
